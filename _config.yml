@@ -11,7 +11,7 @@ presskit_download_link                    : https://emilbaehr.com               
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Pivot App                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : £1.99 with Free Trial                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : 7 day Free Trial, then 1.99 £/$/€                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Easy Pivot Tables on iOS
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -34,45 +34,29 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Build Pivot Tables
+    description                           : Select one of more fields to build a multi-level pivot table just like Excel or Google Sheets.
+    fontawesome_icon_name                 : table
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Sort & Filter
+    description                           : Apply filters to a pivot table. Sort on title, sum or count value.
+    fontawesome_icon_name                 : filter
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Visualise using Graphs
+    description                           : See pivot table data as a bar grpah or pie chart.
+    fontawesome_icon_name                 : chart-pie
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Export your Data
+    description                           : Share pivot tables and graphs with other as a PDF report.
+    fontawesome_icon_name                 : file-export
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Import CSVs
+    description                           : Open CSVs in Pivot App from the built in document browser, or extneral apps such as File, DropBox etc.
+    fontawesome_icon_name                 : file-csv
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : iPad and iPhone
+    description                           : All features supported on iPhone and iPad.
+    fontawesome_icon_name                 : mobile-alt
 
 
 
@@ -83,28 +67,28 @@ topbar_title_color                        : "#ffffff"
 
 cover_image                               :                     # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#272428"
-cover_overlay_transparency                : 0.8
+cover_overlay_transparency                : 1
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#000000"
 
-link_color                                : "#1d63ea"
+link_color                                : "#25935D"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
 feature_title_color                       : "#ffffff"
-feature_text_color                        : "#666666"
+feature_text_color                        : "#c8c8c8"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "#25935D"
 feature_icons_background_color            : "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
+social_icons_foreground_color             : "#25935D"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#c8c8c8"
 
 
 
