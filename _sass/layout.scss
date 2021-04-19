@@ -246,14 +246,14 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 140px;
+	padding-top: 0px;
 	align-content: flex-start;
 }
 
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
-		padding-top: 50px;
+		padding-top: 0px;
 		justify-content: center;
 	}
 
@@ -383,7 +383,7 @@ nav > ul li a:active {
 	background-image: url($device-color);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
-	margin-top: 68px;
+	margin-top: 0px;
 }
 
 .iphoneScreen {
