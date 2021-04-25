@@ -11,8 +11,8 @@ presskit_download_link                    :                                     
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Pivot App                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : 7 day Free Trial, then 1.99 £/$/€                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Easy Pivot Tables on iOS
+app_price                                 : $1.99 | £1.99 | €2,29 with 7 Day Free Trial                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Easy pivot tables on iPhone and iPad. 
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -54,7 +54,7 @@ features                                  :
     description                           : Open CSVs in Pivot App from the built in document browser, or other apps such as Files, Dropbox etc.
     fontawesome_icon_name                 : file-csv
   
-  - title                                 : iPad and iPhone
+  - title                                 : iPhone and iPad
     description                           : All features supported on iPhone and iPad.
     fontawesome_icon_name                 : mobile-alt
 
