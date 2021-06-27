@@ -67,7 +67,7 @@ Pivot is aimed at Excel users already familiar with pivot tables who are looking
     <img src="/assets/screenshot/iPhone Promo/4.jpg" width="370" />
     <img src="/assets/screenshot/iPhone Promo/5.jpg" width="370" />
 </p>
-<img src="/assets/screenshot/iPhone Promo/all.jpg" width="700" />
+<img src="/assets/screenshot/iPhone Promo/all.png" width="700" />
 
 ## iPad  Screens
 
