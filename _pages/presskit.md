@@ -6,7 +6,7 @@ include_in_header: false
 
 # Press Kit
 
-<!-- Download Zip -->
+[Download Zip](/assets/presskit.zip)
 
 ## What is Pivot?
 
@@ -14,9 +14,25 @@ Pivot gives you an easy and powerful way of building pivot tables on your iPhone
 
 Pivot tables are a [data processing technique](https://en.wikipedia.org/wiki/Pivot_table) that let you pick out important information from a set of data. 
 
-For example, you might want to see how much you spend across different spending categories in your bank statement, and order these from highest to lowest. Or given a spreadsheet of event attendees, work out how many people have specific kinds of dietary needs. 
+For example let's say you have a spreadsheet of wedding attendees.
 
-Pivot implements all the key features offered by Microsoft Excel for building pivot tables, but has none of the complexity. Visualising your pivot tables is easy with the beautiful, full colour charts, and you can export your data in professional reports to share with others.
+<img src="/assets/demo/wedding-csv.png" width="700" />
+
+A pivot table helps you pull out useful information from this spreadsheet, such as how many people need which kind of meal. You can do this in Pivot by selecting the "Meal" field.
+
+<img src="/assets/demo/meals.gif" width="300" />
+
+You might also want to find out how many total guests are coming for the Bride and how many for the Groom. A multi-level pivot table makes this easy. In Pivot, select the "Bride or Groom" field  and then the "Number of Guests" field beneath it to act as the summarisation field. Now Pivot can sum up all the guests for the Bride and how many for the Groom. 
+
+<img src="/assets/demo/guests.gif" width="300" />
+
+Finally you might need to plan seating and to find out who needs wheelchair access. Again Pivot makes this simple. By building a pivot table with "Wheelchair Access" and "Name" you can filter out all the guests who do not need wheelchair access, leaving a list of those who do.
+
+<img src="/assets/demo/wheelchair.gif" width="300" />
+
+Pivot is the only iOS app that has all the core pivot building features offered by the desktop Microsoft Excel app. Even the Excel iOS app doesn't support pivot tables! 
+
+Pivot makes building powerful, multi-level pivot tables super straightforward. Visualising your pivot tables is easy with the beautiful, full colour charts, and you can export your data in professional reports to share with others.
 
 Pivot is aimed at Excel users already familiar with pivot tables who are looking to perform data analysis on their iOS device. However, Pivot is designed with a simple and intuitive user interface so anyone can pick it up and start building pivot tables easily.
 
